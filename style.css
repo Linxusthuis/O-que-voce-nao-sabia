@@ -1,9 +1,11 @@
 body {
     background-color: black;
 }
+.titulo {
+    color: aqua;
+}
 header {
     color: rgb(255, 255, 255);
 }
-.titulo {
-    
-}
+
+
