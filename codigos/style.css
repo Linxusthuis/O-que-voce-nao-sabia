@@ -1,0 +1,32 @@
+:root{
+    --roxo: #CD98E5;
+    --corseg: #E5D098;
+
+}
+body{
+    
+  background-image: 
+    url(triangulo.png), 
+      url(circulo.png), 
+        url(retangulo.png);
+  background-repeat: 
+    repeat-x, 
+      no-repeat, 
+        repeat-y;
+  background-position: 
+    right 120px, 
+      center, 
+        0 0;
+  background-color: 
+    #f0c;
+}
+.titulo1 {
+    color:var(--roxo);
+}
+.tranco {
+    color: white;
+}
+header {
+    color: rgb(255, 255, 255);
+}
+
