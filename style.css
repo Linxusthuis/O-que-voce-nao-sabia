@@ -6,9 +6,10 @@
 body{
     
   background-image: 
-    url(triangulo.png), 
-      url(circulo.png), 
-        url(retangulo.png);
+    url(Polygon\ 2.png), 
+      url(Polygon\ 4.png), 
+        url(Rectangle\ 2.png),
+          url(./Star\ 2.png);
   background-repeat: 
     repeat-x, 
       no-repeat, 
