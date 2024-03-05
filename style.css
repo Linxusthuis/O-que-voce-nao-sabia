@@ -19,7 +19,7 @@ body{
       center, 
         0 0;
   background-color: 
-    #f0c;
+    rgb(0, 0, 0);
 }
 .titulo1 {
     color:var(--roxo);
