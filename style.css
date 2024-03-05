@@ -1,8 +1,13 @@
-body {
+
+:root{
+    --roxo: #CD98E5;
+}
+
+body{
     background-color: black;
 }
 .titulo1 {
-    color: purple;
+    color:var(--roxo);
 }
 .troxo {
     color: white;
