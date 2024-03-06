@@ -5,7 +5,7 @@
 
 }
 body {
-  background: /*url(./imagens/file\ cover\ -\ 1.png)*/url(Polygon\ 2.png), url(Polygon\ 4.png);
+  background: /*url(./imagens/file\ cover\ -\ 1.png)*/url(./imagens/Polygon\ 2.png), url(./imagens/Polygon\ 4.png);
   background-position: repeat-x var(--aletorio)
   repeat-y var(--aletorio);
 
