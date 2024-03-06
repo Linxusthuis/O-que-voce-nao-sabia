@@ -5,6 +5,7 @@
 }
 body {
   background: url(./imagens/Group\ 2.png) /*url(Polygon\ 2.png), url(Polygon\ 4.png)*/;
+  background-repeat: no-repeat;
   background-color: black;
 }
 /* body{
