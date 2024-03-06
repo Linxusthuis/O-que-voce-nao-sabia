@@ -6,8 +6,8 @@
 }
 body {
   background: /*url(./imagens/file\ cover\ -\ 1.png)*/url(./imagens/Polygon\ 2.png), url(./imagens/Polygon\ 4.png);
-  background-repeat: repeat-x var(--aletorio)
-  repeat-y var(--aletorio);
+  background-repeat: repeat-x, /*var(--aletorio)*/
+  repeat-y /*var(--aletorio)*/;
 
   background-repeat: no-repeat;
   background-color: black; 
