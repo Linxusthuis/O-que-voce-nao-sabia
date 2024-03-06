@@ -1,10 +1,14 @@
 :root{
     --roxo: #CD98E5;
     --corseg: #E5D098;
+    --aletorio: 2;
 
 }
 body {
   background: url(./imagens/file\ cover\ -\ 1.png) /*url(Polygon\ 2.png), url(Polygon\ 4.png)*/;
+  background-position: repeat-x var(--aletorio)
+  repeat-y var(--aletorio);
+
   background-repeat: no-repeat;
   background-color: black;
 }
