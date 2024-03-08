@@ -3,11 +3,11 @@
     --corseg: #E5D098;
 
 }
-body {
-  background: url(Polygon\ 2.png), url(Polygon\ 4.png);
-  background-color: black;
+*body {
+/*  background: url(./imagens/Polygon\ 2.png), url(./imagens/Polygon\ 4.png);*/
+  background-color: rgb(0, 0, 0);
 }
-/*
+
 body{
     
   background-image: 
@@ -23,7 +23,7 @@ body{
       center, 
         0 0;
   background-color: 
-    rgb(0, 0, 0);*/
+    rgb(0, 0, 0);
 .titulo1 {
     color:var(--roxo);
 }
@@ -33,4 +33,4 @@ body{
 header {
     color: rgb(255, 255, 255);
 }
-
+}
