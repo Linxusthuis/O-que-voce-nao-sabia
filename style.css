@@ -3,19 +3,10 @@
     --corseg: #E5D098;
 
 }
-/*body {
-  background: url(./imagens/Polygon\ 2.png), url(./imagens/Polygon\ 4.png);
-  background-color: rgb(#232025);
-}*/
-
 body{
     
   background-image:
     url(./imagens/Group\ 3.png);
-    /*url(./imagens/Polygon\ 2.png), 
-      url(./imagens/Polygon\ 4.png), 
-        url(./imagens/Rectangle\ 2.png),
-          url(./imagens/Star\ 2.png);*/
   background-repeat: 
     repeat-x, 
       no-repeat, 
@@ -38,8 +29,12 @@ ul{
 header {
     color: rgb(255, 255, 255);
 }
+div.primeira_parte{
+    width: 200px;
+    height: 100px;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+  }
 }
-.img-carapen{
-
-
-}
+/* img.carapen {} */

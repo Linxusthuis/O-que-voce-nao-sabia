@@ -1,7 +1,7 @@
-const ramdom = document.querySelector('--aletorio')
+// const ramdom = document.querySelector('--aletorio')
 
-function setProperty(){
-    ramdom.style.setProperty(Math.random())
-}
+//function setProperty(){
+//    ramdom.style.setProperty(Math.random())
+//}
 //var ramdom = Math.random(2073600)
 
