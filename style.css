@@ -27,7 +27,14 @@ body{
     rgb(0, 0, 0);
 .titulo1 {
     color:var(--roxo);
+
 }
+ul{
+  text-align: center;
+
+
+}
+
 .tranco {
     color: white;
 }
