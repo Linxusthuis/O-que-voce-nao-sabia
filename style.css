@@ -7,22 +7,22 @@ body{
     
   background-image:
     url(./imagens/Group\ 3.png);
-  background-repeat: 
+  /* background-repeat:  
     repeat-x, 
       no-repeat, 
         repeat-y;
   background-position: 
       center, 
-        0 0;
+        0 0;*/
   background-color:#232025 ;
 .titulo1 {
     color:var(--roxo);
+    text-align: center;
+}
+p.titulo2{
+  color:var(--roxo)
 
 }
-ul{
-  text-align: center;
-}
-
 .tranco {
     color: white;
 }
