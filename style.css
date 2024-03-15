@@ -30,11 +30,12 @@ header {
     color: rgb(255, 255, 255);
 }
 div.primeira_parte{
-    width: 200px;
-    height: 100px;
+    width: fit-content;
+    height: fit-content;
     border: 1px solid black;
     padding: 10px;
     margin: 10px;
+    align-items: center;
   }
 }
 /* img.carapen {} */
