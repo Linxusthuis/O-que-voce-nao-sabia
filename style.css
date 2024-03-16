@@ -72,6 +72,9 @@ div.flecha2{
 }
 div.cur1{
   position: inherit;
+}
+div.txtcur1{
+  position: inherit;
   left: 10px;
   top: 10px;
 }
