@@ -53,14 +53,13 @@ div.troco{
 div.flecha1{
   position: inherit;
   left: 10px;
-  right: 10px;
-  size: 50%;
+  top: 10px;
+  width:  50%;
 }
 div.flecha2{
   position: inherit;
   left: 10px;
   top: 10px;
-  size: 
-  50%;
+  width: 50%;
 }
 }
