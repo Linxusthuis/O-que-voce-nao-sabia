@@ -4,15 +4,6 @@
     --corfund:#232025;
     --branco: #ffffff;
 }
-head{
-  ::-webkit-scrollbar{
-    width: 1px;
-  }
-  ::-webkit-scrollbar-thumb:hover{
-    background: var(--corfund);
-  }
- 
-}
 body{
     
   background-image:
