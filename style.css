@@ -14,9 +14,14 @@ body{
     color:var(--roxo);
     text-align: center;
     font-size: xxx-large;
-    overflow-x: hidden;
-    overflow-y: hidden;
-
+    /* overflow-x: hidden; */
+    /* overflow-y: hidden; */
+    ::-webkit-scrollbar{
+      width: 1px;
+    }
+    ::-webkit-scrollbar-thumb:hover{
+      background: var(--corfund);
+    }
 }
 
 p.titulo2{
