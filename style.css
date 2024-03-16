@@ -40,15 +40,15 @@ div.primeira_parte{
   }
 img.carapens {
   position: relative;
-  left: 380px;
-  top: -383px;
+  left: 345px;
+  top: -416px;
   height: 369px;
 }
 div.troco{
   position: relative;
   left: 325px;
   top: 90px;
-  height: fit-content;
+  height: 130px;
   width: fit-content;
 
 }
