@@ -48,6 +48,8 @@ div.troco{
   position: relative;
   left: 325px;
   top: 90px;
+  height: fit-content;
+  width: fit-content;
 
 }
 div.flecha1{
