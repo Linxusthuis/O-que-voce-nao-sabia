@@ -1,20 +1,16 @@
 :root{
     --roxo: #CD98E5;
     --corseg: #E5D098;
+    --corfund:#232025;
+    --branco: #ffffff;
 }
 body{
     
   background-image:
     url(./imagens/Group\ 3.png);
-  /* background-repeat:  
-    repeat-x, 
-      no-repeat, 
-        repeat-y;
-  background-position: 
-      center, 
-        0 0;*/
-  background-color:#232025 ;
-h1.titulo1 {
+  background-color:var(--corfund) ;
+
+  h1.titulo1 {
     color:var(--roxo);
     text-align: center;
     font-size: xxx-large;
@@ -25,12 +21,13 @@ p.titulo2{
 
 }
 .tranco {
-    color: white;
+    color: var(--branco);
 }
 header {
-    color: rgb(255, 255, 255);
+    color: var(--branco);
 }
 div.primeira_parte{
+    position: relative;
     width: 623px;
     height: fit-content;
     /* border: 1px solid black; */
@@ -38,7 +35,7 @@ div.primeira_parte{
     /* margin: 10px; */
     align-items: center;
     top: 56px;
-    right: -310px;
+    right: -350px;
     font-size: xx-large;
   }
 img.carapens {
