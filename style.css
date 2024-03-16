@@ -4,6 +4,15 @@
     --corfund:#232025;
     --branco: #ffffff;
 }
+head{
+  ::-webkit-scrollbar{
+    width: 1px;
+  }
+  ::-webkit-scrollbar-thumb:hover{
+    background: var(--corfund);
+  }
+ 
+}
 body{
     
   background-image:
@@ -52,7 +61,7 @@ div.troco{
   left: 325px;
   top: 90px;
   height: 130px;
-  width: fit-content;
+  width: 500px;
 
 }
 div.flecha1{
@@ -63,8 +72,8 @@ div.flecha1{
 }
 div.flecha2{
   position: inherit;
-  left: 10px;
+  left: 323px;
   top: 10px;
-  width: 50%;
+
 }
 }
