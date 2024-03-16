@@ -44,4 +44,10 @@ img.carapens {
   top: -239px;
   height: 369px;
 }
+div.troco{
+  position: relative;
+  left:  10px;
+  top: 10px;
+  
+}
 }
