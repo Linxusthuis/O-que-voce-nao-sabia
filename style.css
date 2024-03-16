@@ -20,8 +20,11 @@ body{
 }
 
 p.titulo2{
-  color:var(--roxo)
+  color:var(--roxo);
 
+}
+span.higli{
+  color:var(--corseg);
 }
 .tranco {
     color: var(--branco);
@@ -66,5 +69,15 @@ div.flecha2{
   left: 10px;
   top: 10px;
 
+}
+div.cur1{
+  position: inherit;
+  left: 10px;
+  top: 10px;
+}
+img.cur1img{
+  position: inherit;
+  left: 10px;
+  top: 10px;
 }
 }
