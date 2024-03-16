@@ -50,4 +50,14 @@ div.troco{
   top: 90px;
 
 }
+div.flecha1{
+  position: inherit;
+  left: 10px;
+  right: 10px;
+}
+div.flecha2{
+  position: inherit;
+  left: 10px;
+  top: 10px;
+}
 }
