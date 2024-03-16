@@ -1,7 +1,6 @@
 :root{
     --roxo: #CD98E5;
     --corseg: #E5D098;
-
 }
 body{
     
@@ -15,10 +14,12 @@ body{
       center, 
         0 0;*/
   background-color:#232025 ;
-.titulo1 {
+h1.titulo1 {
     color:var(--roxo);
     text-align: center;
+    font-size: xxx-large;
 }
+
 p.titulo2{
   color:var(--roxo)
 
@@ -30,12 +31,20 @@ header {
     color: rgb(255, 255, 255);
 }
 div.primeira_parte{
-    width: 286px;
+    width: 623px;
     height: fit-content;
-    border: 1px solid black;
-    padding: 10px;
-    margin: 10px;
+    /* border: 1px solid black; */
+    /* padding: 10px; */
+    /* margin: 10px; */
     align-items: center;
+    top: 56px;
+    right: -310px;
+    font-size: xx-large;
   }
+img.carapens {
+  position: relative;
+  left: 1063px;
+  top: -239px;
+  height: 369px;
 }
-/* img.carapen {} */
+}
