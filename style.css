@@ -13,7 +13,7 @@ body{
   h1.titulo1 {
     color:var(--roxo);
     text-align: center;
-    font-size: xxx-large;
+    font-size: 100px;
     /* overflow-x: hidden; */
     /* overflow-y: hidden; */
     
@@ -34,21 +34,21 @@ header {
 }
 div.primeira_parte{
     position: relative;
-    width: 623px;
+    width: 776px;
     height: fit-content;
     /* border: 1px solid black; */
     /* padding: 10px; */
     /* margin: 10px; */
     align-items: center;
     top: 56px;
-    right: -429px;
-    font-size: xx-large;
+    right: -340px;
+    font-size: 40px;
   }
 img.carapens {
   position: relative;
-  left: 345px;
-  top: -416px;
-  height: 369px;
+  left: 490px;
+  top: -482px;
+  height: 406px;
 }
 div.troco{
   position: relative;
@@ -60,9 +60,8 @@ div.troco{
 }
 div.flecha1{
   position: inherit;
-  left: 323px;
+  left: 542px;
   top: 10px;
-  width:  50%;
 }
 div.flecha2{
   position: inherit;
@@ -72,15 +71,17 @@ div.flecha2{
 }
 div.cur1{
   position: inherit;
+  top: 72px;
 }
 div.txtcur1{
   position: inherit;
-  left: 10px;
-  top: 10px;
+  left: 387px;
+  top: -297px;
 }
 img.cur1img{
   position: inherit;
-  left: 10px;
-  top: 10px;
+  left: -38px;
+  top: 81px;
+  height: 418px;
 }
 }
