@@ -86,18 +86,18 @@ div.txtcur1{
 }
 img.cur1img{
   position: inherit;
-  left: -38px;
+  left: -93px;
   top: 81px;
   height: 418px;
 }
 img.cur1frtp{
   position: inherit;
-  top: 10px;
+  top: -240px;
   left: 10px;
 }
 img.cur1frbt{
   position: inherit;
-  top: 10px;
-  left: 10px;
+  top: 30px;
+  left: 666px;
 }
 }
