@@ -20,8 +20,8 @@ h1.titulo1 {
 }
 div.titulo{
   position: relative;
-  top: 10px;
-  left: 10px;
+  /* top: 10px; */
+  left: -234px;
 
 }
 
@@ -89,5 +89,15 @@ img.cur1img{
   left: -38px;
   top: 81px;
   height: 418px;
+}
+div.cur1frtp{
+  position: inherit;
+  top: 10px;
+  left: 10px;
+}
+div.cur1frbt{
+  position: inherit;
+  top: 10px;
+  left: 10px;
 }
 }
