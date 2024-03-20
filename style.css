@@ -10,10 +10,10 @@ body{
     url(./imagens/Group\ 3.png);
   background-color:var(--corfund) ;
 
-  h1.titulo1 {
+  p.titulo1 {
     color:var(--roxo);
     text-align: center;
-    font-size: 100px;
+    font-size: px;
     /* overflow-x: hidden; */
     /* overflow-y: hidden; */
     
