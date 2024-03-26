@@ -7,66 +7,130 @@
     <title>O que você não sabia</title>
     <link rel="stylesheet" href="./style.css">
     <script src="./js.js"></script>
-    <style>::-webkit-scrollbar{
-        width: 10px;
-      }
-      ::-webkit-scrollbar-thumb:hover{
-        background:#3c3044;
-      }
-      ::-webkit-scrollbar-track {
-       background: #23202500; 
-      }
-      ::-webkit-scrollbar-thumb {
-       background: #3c3044; 
-      }
-      ::selection{
-        color: var(--branco);
-        background: #3c3044;
-      }
-    </style> 
+    <style class="scrollbar">
+        ::-webkit-scrollbar {
+            width: 10px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: #3c3044;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: #23202500;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: #3c3044;
+        }
+
+        ::selection {
+            color: var(--branco);
+            background: #3c3044;
+        }
+    </style>
+    <style class="organizaçao">
+        * {
+            box-sizing: border-box;
+        }
+
+        /* Style the header */
+        header {
+            background-color: #66666613;
+            padding: 30px;
+            text-align: center;
+            font-size: 35px;
+            color: white;
+        }
+
+        /* Create two columns/boxes that floats next to each other */
+        nav {
+            float: left;
+            width: 15%;
+            height: 1px;
+            /*only for demonstration, should be removed*/
+            background: #cccccc28;
+            padding: 0px;
+            /* width: 250px; */
+        }
+
+        /* Style the list inside the menu */
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        article {
+            float: left;
+            padding: 20px;
+            width: 70%;
+            background-color: #f1f1f110;
+            /* height: 300px; only for demonstration, should be removed */
+        }
+
+        /* Clear floats after the columns */
+        section::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        /* Style the footer */
+        footer {
+            background-color: #77777711;
+            padding: 10px;
+            text-align: center;
+            color: rgba(255, 255, 255, 0.034);
+        }
+
+        /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+        @media (max-width: 700px) {
+
+            nav,
+            article {
+                width: 100%;
+                height: auto;
+            }
+        }
+    </style>
 </head>
 
-<body>
-    <header>
-        <ul>
-                <div class="titulo">
-                    <h1 class="titulo1"><span class="tranco">O que você</span> não <span
-                    class="tranco">sabia</span>! </h1>
-                <!-- span pode ser repetido em uma mesma linha de código -->
-                </div>
-            <div class="box" style="">
-                <div class="primeira_parte">
-                        <div class="flecha2">
-                            <img src="./imagens/Arrow 2.png" alt="flecha">
-                        </div>
-                    <p class="titulo2"> <span class="tranco">Você sabia que o </span>recorde<span class="tranco"> de voo de uma <span class="tranco">galinha</span> é de </span>13 segundos </p>          
-                    <p class="titulo2"> <span class="tranco"> Pois é, nesse site vamos te mostrar </span>curiosidades <span class="tranco">aleatórias de todo tipo de coisa, que talvez lhe sirva para </span>alguma coisa</p>
-                    
-                    <div class="troco">
-                        <p class="titulo2"><span class="tranco">Role o</span> site<span class="tranco"> para baixo e </span>se divirta
-                        <span class="tranco">:)</span></p>
-                        <img class="carapens" src="./imagens/caea_ppensandoo-removebg-preview 1.png" alt="cara pensando">
-                    </div>
-                        <div class="flecha1">
-                            <img src="./imagens/Arrow 1.png" alt="flecha">
-                        </div>
-                    <div class="cur1">
-                            <!-- <div class="cur1frtp"> -->
-                                <img src="./imagens/frame.top.left.png" alt="frame" class="cur1frtp">
-                            <!-- </div> -->
-                        <img src="./imagens/esqueleto-removebg-preview 1.png" alt="esqueleto" class="cur1img">
-                        <div class="txtcur1">
-                            <p>O <span class="higli">esqueleto humano</span> é formado por <span class="higli">206 ossos</span> . Apesar disso, os <span class="higli">bebês nascem</span> com cerca de <span class="higli">270 ossos</span>. Eles vão se fundindo <span class="higli">com ossos maiores </span></p>
-                            <!-- <div class="cur1frbt"> -->
-                                <img src="./imagens/frame.bottom.right.png" alt="frame" class="cur1frbt">
-                            <!-- </div> -->
-                        </div>
-                    </div>
-                </div>
-                
-            </div>
-        </ul>
-    </header>
-</body>
+<header class="titulo">
+    <div class="cir">a</div>
+    <h1 class="titulo1">O que <span class="highroxo">você </span><span class="highroxo">não sabia</span>!</h1>
 
-</html>
+</header>
+<nav></nav>
+<article>
+        <img class="flecha1" src="./imagens/Arrow 2.png" alt="flecha">
+    <div class="curiosidades">
+    <div class="textini">
+
+        <p class="titulo2">Você sabia que o <span class="highroxo">recorde </span>de voo de uma
+            <span class="highroxo">galinha</span> é de<span class="highroxo"> 13 segundos</span>.
+        </p>
+        <p class="titulo2">Pois é, nesse site vamos te mostrar <span class="highroxo">curiosidades </span>aleatórias de
+            todo tipo de coisa, que talvez lhe sirva para <span class="highroxo">
+                alguma coisa</span>.</p>
+
+    </div >
+    </div>
+        <img class="cpen" src="./imagens/cara_ppensandoo-removebg-preview 1.png" alt="cara pensando">
+        <img class="flecha2" src="./imagens/Arrow 1.png" alt="flecha">
+    <div>   
+        <img class="flecha1" src="./imagens/Arrow 2.png" alt="flecha">
+        <div class="textini">
+
+        <p class="titulo2">Você sabia que o <span class="highroxo">recorde </span>de voo de uma
+            <span class="highroxo">galinha</span> é de<span class="highroxo"> 13 segundos</span>.
+        </p>
+        <p class="titulo2">Pois é, nesse site vamos te mostrar <span class="highroxo">curiosidades </span>aleatórias de
+            todo tipo de coisa, que talvez lhe sirva para <span class="highroxo">
+                alguma coisa</span>.</p>
+
+        </div>
+        <img class="cpen" src="./imagens/cara_ppensandoo-removebg-preview 1.png" alt="cara pensando">
+        <img class="flecha2" src="./imagens/Arrow 1.png" alt="flecha">
+    </div>
+</article>
+<nav></nav>
