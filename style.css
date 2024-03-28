@@ -74,7 +74,7 @@ img.imgcur1{
   float: left;
   height: 318;
 }
-div.ciriosidade1::after{
+div.curiosidade1::after{
   content: "";
   clear: both;
   display: table;
