@@ -70,3 +70,7 @@ img.frbot{
   float: right;
 
 }
+img.imgcur1{
+  float: left;
+  height: auto;
+}
