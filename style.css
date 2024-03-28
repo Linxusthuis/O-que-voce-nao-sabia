@@ -43,7 +43,7 @@ div.textini{
   color: var(--branco);
 
 }
-div.curiosidades{
+div.descsite{
   display:contents
   
 }
@@ -58,4 +58,7 @@ img.flecha1{
 img.flecha2{
   float: right;
 
+}
+div.curiosidade1{
+  
 }
