@@ -47,7 +47,7 @@ header {
     color: var(--branco);
 }
 div.primeira_parte{
-  font-family: inherit;
+  font-family: bentham;
     position: relative;
     width: 776px;
     height: fit-content;
