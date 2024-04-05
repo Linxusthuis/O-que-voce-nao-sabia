@@ -18,11 +18,19 @@ h1.titulo1 {
     /* overflow-y: hidden; */
     
 }
-div.titulo{
+/* div.titulo{
   position: relative;
-  /* top: 10px; */
+   top: 10px; 
   left: -234px;
 
+} */
+
+
+.titulo1 {
+  position: relative;
+  top: 10px; 
+  left: -234px;
+  font-family:inherit ;
 }
 
 p.titulo2{
