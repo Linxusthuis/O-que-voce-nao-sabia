@@ -30,7 +30,7 @@ h1.titulo1 {
   position: relative;
   top: 10px; 
   left: -234px;
-  font-family:inherit ;
+  font-family: bangers;
 }
 
 p.titulo2{
@@ -47,6 +47,7 @@ header {
     color: var(--branco);
 }
 div.primeira_parte{
+  font-family: inherit;
     position: relative;
     width: 776px;
     height: fit-content;
