@@ -50,7 +50,7 @@ header {
   color: var(--branco);
 }
 div.primeira_parte{
-font-family: bentham;
+font-family: "bentham", serif;
   position: relative;
   width: 776px;
   height: fit-content;
