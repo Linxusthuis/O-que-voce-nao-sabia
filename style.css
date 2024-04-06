@@ -17,21 +17,19 @@ body{
 
 background-image:
   url(./imagens/Slide\ 16_9\ -\ 1.png);
-background-color:var(--corfund) ;
+  background-color:var(--corfund) ;
+  font-family: "bentham";
+
 h1.titulo1 {
   color:var(--roxo);
   text-align: center;
   font-size: 100px;
   /* overflow-x: hidden; */
   /* overflow-y: hidden; */
-  font-family: "bentham";
+  
   
 }
-/* div.titulo{
-position: relative;
- top: 10px; 
-left: -234px;
-} */
+
 .titulo1 {
 position: relative;
 top: 10px; 
