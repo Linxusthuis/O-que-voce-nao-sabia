@@ -24,16 +24,16 @@ h1.titulo1 {
     color:var(--roxo);
     text-align: center;
     font-size: 100px;
-    /* overflow-x: hidden; */
-    /* overflow-y: hidden; */
+      overflow-x: hidden; 
+      overflow-y: hidden; 
     
 }
-/* div.titulo{
+  div.titulo{
   position: relative;
    top: 10px; 
   left: -234px;
 
-} */
+} 
 
 
 .titulo1 {
@@ -42,8 +42,7 @@ h1.titulo1 {
   left: -234px;
   font-family: bangers;
 }
-article{
-  font-family: "bentham", serif;
+
 }
 p.titulo2{
   color:var(--roxo);
@@ -60,65 +59,65 @@ header {
 }
 div.primeira_parte{
     font-family: "Bentham", serif;
-    /* position: relative;
+      position: relative;
     width: 776px;
     height: fit-content;
-    /* border: 1px solid black; */
-    /* padding: 10px; */
-    /* margin: 10px; 
+      border: 1px solid black; 
+      padding: 10px; 
+      margin: 10px; 
     align-items: center;
     top: 56px;
     right: -340px;
-    font-size: 40px; */
+    font-size: 40px; 
   }
 img.carapens {
-  /* position: relative; */
-  /* left: 490px;
+    position: relative; 
+    left: 490px;
   top: -482px;
-  height: 406px; */
+  height: 406px; 
 }
 div.troco{
-  /* position: relative;
+    position: relative;
   left: 325px;
   top: 90px;
   height: 130px;
-  width: 728px; */
+  width: 728px; 
 
 }
 .flecha1{
-  /* position: inherit;
+    position: inherit;
   left: 542px;
-  top: 10px; */
+  top: 10px; 
 }
 div.flecha2{
-  /* position: inherit;
+    position: inherit;
   left: 10px;
-  top: 10px; */
+  top: 10px; 
 
 }
 div.cur1{
-  /* position: inherit;
-  top: 72px; */
+  position: inherit;
+  top: 72px;
 }
 div.txtcur1{
-  /* position: inherit;
+  position: inherit;
   left: 387px;
-  top: -297px; */
+  top: -297px;
 }
 img.cur1img{
-  /* position: inherit;
+  position: inherit;
   left: -93px;
   top: 81px;
-  height: 418px; */
+  height: 418px;
 }
 img.cur1frtp{
-  /* position: inherit;
+  position: inherit;
   top: -240px;
-  left: 10px; */
+  left: 10px;
 }
 img.cur1frbt{
-  /* position: inherit;
+  position: inherit;
   top: 30px;
-  left: 666px; */
+  left: 666px;
 }
 }
