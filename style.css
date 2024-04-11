@@ -109,4 +109,8 @@ position: inherit;
 top: 30px;
 left: 666px;
 }
+.sextion{
+  display: flex;
+  
+}
 }
