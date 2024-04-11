@@ -110,11 +110,15 @@ top: 30px;
 left: 666px;
 }
 .sextion{
-  display: flex;
- text-align: center;
-}
-h2.sextion{
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  text-align: center;
   color: var(--branco);
+  font-family: "andika";
+
+}
+.sextion {
+  
 } 
   
 }
