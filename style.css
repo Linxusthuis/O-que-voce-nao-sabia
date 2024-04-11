@@ -38,7 +38,7 @@ font-family: bangers;
 }
 p.titulo2{
 color:var(--roxo);
-line-height: 0%;
+line-height: 100%;
 }
 span.higli{
 color:var(--corseg);
