@@ -113,4 +113,8 @@ left: 666px;
   display: flex;
  text-align: center;
 }
+h2.sextion{
+  color: var(--branco);
+} 
+  
 }
