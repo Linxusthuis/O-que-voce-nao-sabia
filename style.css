@@ -110,7 +110,7 @@ top: 30px;
 left: 666px;
 }
 .sextion{
-  font-size: 24px;
+  font-size: 18px;
   display: grid;
   grid-template-columns: 33% 33% 33%;
   text-align: center;
@@ -119,7 +119,7 @@ left: 666px;
   font-style: normal;
 }
 .aleatório {
-  font-size: 30px;
+  font-size: 25px;
 }
   
 }
