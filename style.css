@@ -36,9 +36,9 @@ top: 10px;
 left: -234px;
 font-family: bangers;
 }
-p.titulo2{
+.titulo2{
 color:var(--roxo);
-line-height: 100%;
+line-height: 50%;
 }
 span.higli{
 color:var(--corseg);
