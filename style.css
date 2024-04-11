@@ -111,6 +111,6 @@ left: 666px;
 }
 .sextion{
   display: flex;
-  
+ text-align: center;
 }
 }
