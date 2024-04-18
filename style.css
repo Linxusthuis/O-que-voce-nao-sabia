@@ -144,3 +144,8 @@ img.cur1frbt {
 .boton{
   font-size: inherit;
 }
+footer{
+  background: #23202531;
+  display: flex;
+
+}
