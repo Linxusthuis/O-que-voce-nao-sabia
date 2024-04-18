@@ -142,7 +142,7 @@ img.cur1frbt {
   font-size: 25px;
 }
 .boton{
-  font-size: 20px;
+  font-size: 35px;
   color: white;
 }
 footer{
@@ -151,6 +151,7 @@ footer{
   color: white;
 
 }
-a{
+footer a{
   text-decoration: none;
+  color: var(--roxo);
 }
