@@ -145,7 +145,8 @@ img.cur1frbt {
   font-size: inherit;
 }
 footer{
-  background: #23202531;
-  display: flex;
+  background: black;
+  text-align: center;
+  color: white;
 
 }
