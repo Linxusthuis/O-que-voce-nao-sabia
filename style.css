@@ -143,6 +143,8 @@ img.cur1frbt {
 }
 .boton{
   font-size: inherit;
+  font-size: 20px;
+  color: white;
 }
 footer{
   background: black;
