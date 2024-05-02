@@ -116,11 +116,15 @@ img.cur1img {
   height: 418px;
 }
 
-img.cur1img {
+div.cur2 {
   position: inherit;
-  left: -93px;
-  top: 81px;
-  height: 418px;
+  top: 72px;
+}
+
+div.txtcur2 {
+  position: inherit;
+  left: 387px;
+  top: -235px;
 }
 
 img.cur2img {
