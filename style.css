@@ -106,7 +106,7 @@ div.cur1 {
 div.txtcur1 {
   position: inherit;
   left: 387px;
-  top: -297px;
+  top: -235px;
 }
 
 img.cur1img {
@@ -155,3 +155,4 @@ footer a{
   text-decoration: none;
   color: var(--roxo);
 }
+
