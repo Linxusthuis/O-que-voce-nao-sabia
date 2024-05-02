@@ -163,6 +163,8 @@ img.cur1frtp {
 
 img.cur2frtp {
   position: inherit;
+  right: -740px;
+  top: 75px;
 }
 
 .sextion {
