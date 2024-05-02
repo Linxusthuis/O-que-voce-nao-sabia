@@ -187,6 +187,9 @@ img.cur1frbt {
   color: white;
   left: 243px;
   position: relative;
+  color: var(--branco);
+  font-family: "andika";
+  font-style: normal;
 }
 
 footer {
