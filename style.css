@@ -161,6 +161,10 @@ img.cur1frtp {
   left: -35px;
 }
 
+img.cur2frtp {
+  position: inherit;
+}
+
 .sextion {
   font-size: 18px;
   display: grid;
