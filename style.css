@@ -183,13 +183,11 @@ img.cur1frbt {
 }
 
 .boton2 {
+  font-weight: bold;
   font-size: 35px;
   color: white;
   left: 243px;
   position: relative;
-  color: var(--branco);
-  font-family: "andika";
-  font-style: normal;
 }
 
 footer {
