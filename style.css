@@ -111,9 +111,9 @@ div.txtcur1 {
 
 img.cur1img {
   position: inherit;
-  left: -93px;
+  left: -91px;
   top: 81px;
-  height: 418px;
+  height: 399px;
 }
 
 div.cur2 {
@@ -123,7 +123,7 @@ div.cur2 {
 
 div.txtcur2 {
   position: inherit;
-  left: -93px;
+/*  left: -93px; */
   top: -235px;
 }
 
