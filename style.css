@@ -177,4 +177,7 @@ footer a{
 
 @media screen and (max-width: 1440px) {
 
+  .cur2img {
+    width: 50vw;
+  }
 }
