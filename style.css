@@ -182,6 +182,13 @@ img.cur1frbt {
   position: relative;
 }
 
+.boton2 {
+  font-size: 35px;
+  color: white;
+  left: 243px;
+  position: relative;
+}
+
 footer {
   background: black;
   text-align: center;
