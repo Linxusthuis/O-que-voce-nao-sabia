@@ -141,6 +141,13 @@ img.cur3img {
   height: 328px;
 }
 
+img.cur4img {
+  position: inherit;
+  left: -104px;
+  top: -10px;
+  height: 328px;
+}
+
 img.cur1frbt {
   position: inherit;
   top: 30px;
