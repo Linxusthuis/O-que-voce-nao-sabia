@@ -178,6 +178,8 @@ img.cur1frbt {
 .boton {
   font-size: 35px;
   color: white;
+  left: 43px;
+  position: relative;
 }
 
 footer {
