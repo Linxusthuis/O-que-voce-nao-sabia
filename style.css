@@ -143,9 +143,16 @@ img.cur3img {
 
 img.cur4img {
   position: inherit;
-  left: -104px;
-  top: -10px;
-  height: 328px;
+  left: 650px;
+  top: 48px;
+  height: 445px;
+}
+
+img.cur5img {
+  position: inherit;
+  left: 617px;
+  top: 48px;
+  height: 405px;
 }
 
 img.cur1frbt {
