@@ -1,3 +1,5 @@
+@media screen and (max-width: 1440px) {
+
 :root {
   --roxo: #CD98E5;
   --corseg: #E5D098;
@@ -175,6 +177,4 @@ footer a{
   color: var(--roxo);
 }
 
-@media screen and (max-width: 1440px) {
-  
 }
