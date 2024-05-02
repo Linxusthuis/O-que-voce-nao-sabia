@@ -183,6 +183,11 @@ footer a {
   top: 15px;
 }
 
+.final {
+  position: relative;
+  top: 105px;
+}
+
 @media screen and (max-width: 1024px) {
 
   .tudo {
